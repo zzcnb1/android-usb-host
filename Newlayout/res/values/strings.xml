@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">W S</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="usb">Information of usb</string>
+    <string name="setmain">set mainboard</string>
+    <string name="chan1">channel1</string>
+    <string name="chan2">channel2</string>
+    <string name="chan3">channel3</string>
+    <string name="chan4">channel4</string>
+    <string name="zero">0</string>
+    <string name="setF">set_Frequence</string>
+    <string name="setV">set_Volatage</string>
+    
+    <string name="setpro">set probeboard</string>
+    <string name="setPID">PID setting:</string>
+    <string name="setP">P:</string>
+    <string name="setI">I:</string>
+    <string name="setD">D:</string>
+    <string name="setpoint">PID setpoint:</string>
+    <string name="setshift">shift speed:</string>
+    <string name="setpga">pga mul:</string>
+    <string name="radiob">Set Probeboard:</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="ss1">Set Source1:</string>
+    <string name="sin">sin</string>
+    <string name="Singlechip">Singlechip</string>
+    <string name="ss2">Set Source2:</string>
+    <string name="cos">cos</string>
+    <string name="Sendmain">Sendmain</string>
+    <string name="Sendpro">Sendpro</string>
+    
+    <string name="menu_amplify1">1</string>
+    <string name="menu_amplify2">2</string>
+    <string name="menu_amplify3">3</string>
+    <string name="menu_amplify4">4</string>
+    <string name="menu_amplifys">AM</string>
+
+
+</resources>

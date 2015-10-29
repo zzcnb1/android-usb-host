@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#FFF">
+    <LinearLayout 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal" 
+        android:background="#000000"> 
+   
+        <TextView 
+            android:layout_width="80dip" 
+            android:layout_height="30dp" 
+            android:text="number" 
+            android:textSize="20dp" 
+            android:textColor="#ffffff"/> 
+   
+        <TextView 
+            android:id="@+id/vid" 
+            android:layout_width="150dip" 
+            android:layout_height="30dp" 
+            android:text="VID" 
+            android:textSize="20dp" 
+            android:textColor="#ffffff"/> 
+   
+        <TextView 
+            android:id="@+id/pid" 
+            android:layout_width="150dip" 
+            android:layout_height="30dp" 
+            android:text="PID" 
+            android:textSize="20dp" 
+            android:textColor="#ffffff"/> 
+   
+        <TextView 
+            android:id="@+id/inter" 
+            android:layout_width="150dip" 
+            android:layout_height="30dp" 
+            android:text="interface" 
+            android:textSize="20dp"
+            android:textColor="#ffffff" /> 
+   
+        <TextView 
+            android:id="@+id/endpoint" 
+            android:layout_width="150dip" 
+            android:layout_height="30dp" 
+            android:text="endpoint" 
+            android:textSize="20dp"
+            android:textColor="#ffffff" /> 
+         <TextView 
+            android:id="@+id/txt_cheusb" 
+            android:layout_width="150dip" 
+            android:layout_height="30dp" 
+            android:text="open usb" 
+            android:textSize="20dp"
+            android:textColor="#ffffff" /> 
+    </LinearLayout> 
+   
+    <ListView 
+        android:id="@+id/list_usb" 
+        android:layout_width="fill_parent" 
+        android:layout_height="match_parent" 
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/black"
+        android:dividerHeight="1dp" > 
+    </ListView> 
+
+</LinearLayout>
