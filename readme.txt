@@ -1,2 +1,1 @@
-1111
-2222
+android通过USB与STM32通信实例。将STM32采集到的信息显示在android界面。
